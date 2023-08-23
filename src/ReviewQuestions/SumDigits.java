@@ -8,7 +8,7 @@ package ReviewQuestions;
  * This class, given a non-negative integer 'n', returns the sum of
  * that integer's digits
  */
-public class sumDigits {
+public class SumDigits {
     public static int sumDigits(int n) {
         int sum = 0;
         while (n > 10){

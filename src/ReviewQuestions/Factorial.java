@@ -12,7 +12,7 @@ package ReviewQuestions;
 // the numbers became too big for the INT data type to hold them. The solution
 // was to change the returning value to a LONG data type, which could hold a number
 // with more digits
-public class factorial {
+public class Factorial {
     public static long factorial(int number){
         long fact = number;
         for(int i=number;i>1;i--) {

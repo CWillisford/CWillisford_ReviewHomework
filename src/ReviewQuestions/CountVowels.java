@@ -7,7 +7,7 @@ package ReviewQuestions;
  *
  * This class takes in a string and returns the amount of vowels in that string
  */
-public class countVowels {
+public class CountVowels {
     public static int countVowels (String s) {
         int count = 0;
         for (int i=0; i<s.length(); i++) {

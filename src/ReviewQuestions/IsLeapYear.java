@@ -8,7 +8,7 @@ package ReviewQuestions;
  * This class, given an integer representing a year, prints 'true' or 'false'
  * depending if that year is a leap year or not
  */
-public class isLeapYear {
+public class IsLeapYear {
     public static void leap(int year) {
         if (year%100==0 && year%400==0)
             System.out.println("true");

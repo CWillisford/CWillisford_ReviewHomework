@@ -9,7 +9,7 @@ package ReviewQuestions;
  * The method 'countOccurences' counts the number of times the target character in the
  * string appears and then returns that number
  */
-public class countOccurrences {
+public class CountOccurrences {
     public static int countOccurences(String text, char target) {
         int count=0;
         for(int i=0; i<text.length(); i++){
